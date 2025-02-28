@@ -18,7 +18,7 @@ print("Number of documents in sample:", len(df))
 # Replace the credentials with your actual username and password.
 es = Elasticsearch(
     "https://localhost:9200",
-    basic_auth=("elastic", "U25pq33cD8FqObxn9UOT"),
+    basic_auth=("elastic", "my_password"),
     verify_certs=False
 )
 
